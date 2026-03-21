@@ -1,4 +1,4 @@
-package _08string._02feature;
+package _08string._02feature._01;
 
 /*
 1.请键盘录入一个任意字符串s，并用一个temp字符串引用也指向它
