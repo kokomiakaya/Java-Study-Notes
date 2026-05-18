@@ -1,5 +1,7 @@
 package _07object._03equals;
 
+import java.io.Serializable;
+
 public class Demo {
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -10,6 +12,7 @@ public class Demo {
     }
 }
 
-class Student {
+class Student implements Serializable {
 
+    private static final long serialVersionUID = -7066796902567625191L;
 }
